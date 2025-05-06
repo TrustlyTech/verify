@@ -13,7 +13,7 @@ subscription_key = os.getenv("AZURE_SUBSCRIPTION_KEY")
 endpoint = os.getenv("AZURE_ENDPOINT")
 detect_endpoint = f"{endpoint}/face/v1.0/detect"
 identify_endpoint = f"{endpoint}/face/v1.0/identify"
-large_person_group_id = "requisitoriadosgroup"  # Asegúrate de que este grupo exista en Azure
+large_person_group_id = "requisitoriados-group"  # Asegúrate de que este grupo exista en Azure
 
 # Función para obtener información del `personId` identificado
 def get_person_info(person_id):
