@@ -72,7 +72,7 @@ def detect_and_identify():
             "faceIds": [face_id],
             "largePersonGroupId": large_person_group_id,
             "maxNumOfCandidatesReturned": 1,
-            "confidenceThreshold": 0.9
+            "confidenceThreshold": 0.75
         }
 
         # Enviar el faceId al endpoint de identificación
