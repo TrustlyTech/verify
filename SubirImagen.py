@@ -14,7 +14,7 @@ endpoint = os.getenv("AZURE_ENDPOINT")
 detect_endpoint = f"{endpoint}/face/v1.0/detect"
 identify_endpoint = f"{endpoint}/face/v1.0/identify"
 # large_person_group_id = "delincuente02"
-large_person_group_id = "requisitoriados-group01"  
+large_person_group_id = "requisitoriados-group02"  
 # Asegúrate de que este grupo exista en Azure
 
 # Función para obtener información del `personId` identificado
